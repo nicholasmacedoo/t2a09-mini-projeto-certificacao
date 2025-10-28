@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T2A09 - MINI PROJETO REVISÃO</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+     <header>
+        <img src="./logotipo.png" alt="logotipo shop365">
+        <p>Cadastre e visualize seus produtos</p>
+     </header>
+    <!-- CONTEUDO PRINCIPAL (FORMULARIO E PRODUTO) -->
+     <main>
+        <section id="formulario">
+            <form id="form-produto">
+                <!-- nome, preco, categoria e descricao -->
+                 <input type="text" id="titulo" placeholder="Nome do produto" required>
+                 <input type="number" id="preco" placeholder="Preço do produto" required>
+                 <input type="text" id="categoria" placeholder="Informe a categoria (opcional)">
+                 <textarea id="descricao" placeholder="Descrição do produto"></textarea>
+
+                 <button type="submit">Cadastrar produto</button>
+            </form>
+        </section>
+        
+        <section id="produtos">
+            <h2>Produtos cadastrados</h2>
+            
+            <div class="cards">
+                <div class="card-produto">
+                    <h3>Titulo do produto</h3>
+                    <p>Descrição do produto</p>
+                </div>
+            </div>
+        </section>
+     </main>
+    <!-- FOOTER -->
+</body>
+</html>
